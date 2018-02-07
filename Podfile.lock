@@ -1,0 +1,26 @@
+PODS:
+  - AppAuth (0.92.0)
+  - Janrain (5.1):
+    - AppAuth
+
+DEPENDENCIES:
+  - AppAuth
+  - Janrain (from `https://github.com/NishanthMurugan/jump.ios.git`, commit `bf860ba42968033d10f8bdf894ef0355e3df1765`)
+
+EXTERNAL SOURCES:
+  Janrain:
+    :commit: bf860ba42968033d10f8bdf894ef0355e3df1765
+    :git: https://github.com/NishanthMurugan/jump.ios.git
+
+CHECKOUT OPTIONS:
+  Janrain:
+    :commit: bf860ba42968033d10f8bdf894ef0355e3df1765
+    :git: https://github.com/NishanthMurugan/jump.ios.git
+
+SPEC CHECKSUMS:
+  AppAuth: 3f4f1d6d85ad631d0bbf15ffcdc10c447face97a
+  Janrain: 2cb75fb1354049b6e913ba51aa5a67dc9de61856
+
+PODFILE CHECKSUM: d0ad4af26c1669d2de138c59afc5ef6dd7db665f
+
+COCOAPODS: 1.2.0

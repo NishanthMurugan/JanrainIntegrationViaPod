@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		212A7A832029B057008BB037 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 212A7A822029B057008BB037 /* AppDelegate.m */; };
+		212A7A862029B057008BB037 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 212A7A852029B057008BB037 /* ViewController.m */; };
+		212A7A892029B057008BB037 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212A7A872029B057008BB037 /* Main.storyboard */; };
+		212A7A8B2029B057008BB037 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 212A7A8A2029B057008BB037 /* Assets.xcassets */; };
+		212A7A8E2029B057008BB037 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212A7A8C2029B057008BB037 /* LaunchScreen.storyboard */; };
+		212A7A912029B057008BB037 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 212A7A902029B057008BB037 /* main.m */; };
+		96398451CD7903C4E288A952 /* Pods_JanrainIntegation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31568D939BB4464355AA0BA7 /* Pods_JanrainIntegation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		212A7A7E2029B057008BB037 /* JanrainIntegation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JanrainIntegation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		212A7A812029B057008BB037 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		212A7A822029B057008BB037 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		212A7A842029B057008BB037 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		212A7A852029B057008BB037 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		212A7A882029B057008BB037 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		212A7A8A2029B057008BB037 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		212A7A8D2029B057008BB037 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		212A7A8F2029B057008BB037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		212A7A902029B057008BB037 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		212A7DB32029C759008BB037 /* JanrainIntegration.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JanrainIntegration.pch; sourceTree = "<group>"; };
+		31568D939BB4464355AA0BA7 /* Pods_JanrainIntegation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JanrainIntegation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81A2D9E8CB93EADE692C5215 /* Pods-JanrainIntegation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JanrainIntegation.release.xcconfig"; path = "Pods/Target Support Files/Pods-JanrainIntegation/Pods-JanrainIntegation.release.xcconfig"; sourceTree = "<group>"; };
+		E41ED46A966A6F5FAECE4EBF /* Pods-JanrainIntegation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JanrainIntegation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JanrainIntegation/Pods-JanrainIntegation.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		212A7A7B2029B057008BB037 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96398451CD7903C4E288A952 /* Pods_JanrainIntegation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		212A7A752029B057008BB037 = {
+			isa = PBXGroup;
+			children = (
+				212A7A802029B057008BB037 /* JanrainIntegation */,
+				212A7A7F2029B057008BB037 /* Products */,
+				212A7C4A2029B56F008BB037 /* Frameworks */,
+				C1ADC6F9D334A3010CB1C143 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		212A7A7F2029B057008BB037 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				212A7A7E2029B057008BB037 /* JanrainIntegation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		212A7A802029B057008BB037 /* JanrainIntegation */ = {
+			isa = PBXGroup;
+			children = (
+				212A7A812029B057008BB037 /* AppDelegate.h */,
+				212A7A822029B057008BB037 /* AppDelegate.m */,
+				212A7A842029B057008BB037 /* ViewController.h */,
+				212A7A852029B057008BB037 /* ViewController.m */,
+				212A7A872029B057008BB037 /* Main.storyboard */,
+				212A7A8A2029B057008BB037 /* Assets.xcassets */,
+				212A7A8C2029B057008BB037 /* LaunchScreen.storyboard */,
+				212A7A8F2029B057008BB037 /* Info.plist */,
+				212A7A902029B057008BB037 /* main.m */,
+				212A7DB32029C759008BB037 /* JanrainIntegration.pch */,
+			);
+			path = JanrainIntegation;
+			sourceTree = "<group>";
+		};
+		212A7C4A2029B56F008BB037 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31568D939BB4464355AA0BA7 /* Pods_JanrainIntegation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1ADC6F9D334A3010CB1C143 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E41ED46A966A6F5FAECE4EBF /* Pods-JanrainIntegation.debug.xcconfig */,
+				81A2D9E8CB93EADE692C5215 /* Pods-JanrainIntegation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		212A7A7D2029B057008BB037 /* JanrainIntegation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 212A7A942029B057008BB037 /* Build configuration list for PBXNativeTarget "JanrainIntegation" */;
+			buildPhases = (
+				86C8C1486BF7E4AD5F05866B /* [CP] Check Pods Manifest.lock */,
+				212A7A7A2029B057008BB037 /* Sources */,
+				212A7A7B2029B057008BB037 /* Frameworks */,
+				212A7A7C2029B057008BB037 /* Resources */,
+				49FC236BAFD8D1A7CAC9FBC8 /* [CP] Embed Pods Frameworks */,
+				1C3E2E68DB3F922B777298FE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JanrainIntegation;
+			productName = JanrainIntegation;
+			productReference = 212A7A7E2029B057008BB037 /* JanrainIntegation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		212A7A762029B057008BB037 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				TargetAttributes = {
+					212A7A7D2029B057008BB037 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 212A7A792029B057008BB037 /* Build configuration list for PBXProject "JanrainIntegation" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 212A7A752029B057008BB037;
+			productRefGroup = 212A7A7F2029B057008BB037 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				212A7A7D2029B057008BB037 /* JanrainIntegation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		212A7A7C2029B057008BB037 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212A7A8E2029B057008BB037 /* LaunchScreen.storyboard in Resources */,
+				212A7A8B2029B057008BB037 /* Assets.xcassets in Resources */,
+				212A7A892029B057008BB037 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C3E2E68DB3F922B777298FE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JanrainIntegation/Pods-JanrainIntegation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49FC236BAFD8D1A7CAC9FBC8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JanrainIntegation/Pods-JanrainIntegation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86C8C1486BF7E4AD5F05866B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		212A7A7A2029B057008BB037 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212A7A862029B057008BB037 /* ViewController.m in Sources */,
+				212A7A912029B057008BB037 /* main.m in Sources */,
+				212A7A832029B057008BB037 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		212A7A872029B057008BB037 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				212A7A882029B057008BB037 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		212A7A8C2029B057008BB037 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				212A7A8D2029B057008BB037 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		212A7A922029B057008BB037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		212A7A932029B057008BB037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		212A7A952029B057008BB037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E41ED46A966A6F5FAECE4EBF /* Pods-JanrainIntegation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/nishanth/Documents/JanrainIntegation/JanrainIntegation/JanrainIntegration.pch;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = JanrainIntegation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.JanrainIntegation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		212A7A962029B057008BB037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81A2D9E8CB93EADE692C5215 /* Pods-JanrainIntegation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/nishanth/Documents/JanrainIntegation/JanrainIntegation/JanrainIntegration.pch;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = JanrainIntegation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.JanrainIntegation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		212A7A792029B057008BB037 /* Build configuration list for PBXProject "JanrainIntegation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212A7A922029B057008BB037 /* Debug */,
+				212A7A932029B057008BB037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		212A7A942029B057008BB037 /* Build configuration list for PBXNativeTarget "JanrainIntegation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212A7A952029B057008BB037 /* Debug */,
+				212A7A962029B057008BB037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 212A7A762029B057008BB037 /* Project object */;
+}
